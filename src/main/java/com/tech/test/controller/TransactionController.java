@@ -21,4 +21,7 @@ public class TransactionController {
     @ResponseStatus(HttpStatus.CREATED)
     public void criarTransacao(@RequestBody @Valid TransactionRequestDTO transactionRequest) {
         transactionService.criarTransacao(transactionRequest);
-    }}
+    }
+
+}
+
